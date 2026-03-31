@@ -1,5 +1,9 @@
 # Heart Disease Risk Analyzer
 
+## Live Demo
+
+Try the app here: https://lhvpaw4nmtai5fsuytzaff.streamlit.app/
+
 ## Overview
 
 A machine learning project that predicts heart disease risk from patient
