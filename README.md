@@ -71,3 +71,9 @@ heart-disease-risk-analyzer/
 - Try more advanced models
 - Build a simple interface where you can input patient
   measurements and get a risk prediction
+
+## Web Application
+
+Run locally with:
+pip install streamlit
+streamlit run app.py
