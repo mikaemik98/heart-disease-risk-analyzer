@@ -24,12 +24,18 @@ measurements using the UCI Heart Disease Dataset.
 - Two machine learning models compared
 - Honest model evaluation using cross-validation
 
-## Models
+## Model Comparison
 
-| Model               | Single Split Accuracy | Cross-Validation Accuracy |
-| ------------------- | --------------------- | ------------------------- |
-| Logistic Regression | 82%                   | -                         |
-| Random Forest       | 84%                   | 77% (std: 0.08)           |
+| Model               | Single Split | Cross-Validation |
+| ------------------- | ------------ | ---------------- |
+| Logistic Regression | 82%          | —                |
+| Random Forest       | 84%          | 77%              |
+| XGBoost default     | 85%          | 72.5%            |
+| XGBoost tuned       | 82%          | 79.1%            |
+
+Tuned XGBoost achieved the highest cross-validation score (79.1%)
+showing that reducing overfitting improves real-world performance
+more than maximizing single split accuracy
 
 ## Key Findings
 
